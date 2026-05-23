@@ -529,6 +529,7 @@ namespace WorldPackets
         class DFTeleport;
         class DFGetSystemInfo;
         class DFGetJoinStatus;
+        class LFGListGetStatus;
     }
 
     namespace Loot
@@ -598,6 +599,16 @@ namespace WorldPackets
         class ActivateSoulbind;
         class ChromieTimeSelectExpansion;
         class RequestStoreFrontInfoUpdate;
+    }
+
+    namespace TradeSkill
+    {
+        class OpenTradeskillNpc;
+    }
+
+    namespace Perks
+    {
+        class PerksProgramStatusRequest;
     }
 
     namespace Movement
