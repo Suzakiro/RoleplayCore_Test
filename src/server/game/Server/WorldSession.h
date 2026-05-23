@@ -600,6 +600,16 @@ namespace WorldPackets
         class RequestStoreFrontInfoUpdate;
     }
 
+    namespace TradeSkill
+    {
+        class OpenTradeskillNpc;
+    }
+
+    namespace Perks
+    {
+        class PerksProgramStatusRequest;
+    }
+
     namespace Movement
     {
         class ClientPlayerMovement;
@@ -1830,7 +1840,6 @@ class TC_GAME_API WorldSession
         // Looking for Dungeon/Raid
         void SendLfgPlayerLockInfo();
         void SendLfgPartyLockInfo();
-		void HandleLFGListGetStatus(WorldPackets::LFG::LFGListGetStatus& packet);
         void HandleLfgJoinOpcode(WorldPackets::LFG::DFJoin& dfJoin);
         void HandleLfgLeaveOpcode(WorldPackets::LFG::DFLeave& dfLeave);
         void HandleLfgProposalResultOpcode(WorldPackets::LFG::DFProposalResponse& dfProposalResponse);

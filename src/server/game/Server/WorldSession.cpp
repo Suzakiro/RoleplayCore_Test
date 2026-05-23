@@ -595,10 +595,6 @@ bool WorldSession::Update(uint32 diff, PacketFilter& updater)
     return true;
 }
 
-void WorldSession::HandleLFGListGetStatus(WorldPackets::LFG::LFGListGetStatus& packet)
-{
-}
-
 /// %Log the player out
 void WorldSession::LogoutPlayer(bool save)
 {
