@@ -1,0 +1,99 @@
+/*
+ * This file is part of the TrinityCore Project. See AUTHORS file for Copyright information
+ *
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the
+ * Free Software Foundation; either version 2 of the License, or (at your
+ * option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+ * more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+#ifndef DARKMOON_ISLAND_H
+#define DARKMOON_ISLAND_H
+
+//QUEST
+enum darkmoonIslandQuests
+{
+    QUEST_WHACK_A_GNOLL                     = 29463,
+    QUEST_FIREBIRDS_CHALLENGE               = 36481,
+    QUEST_HUMANOID_CANNONBALL               = 29436,
+    QUEST_TARGET_TURTLE                     = 29455,
+    QUEST_HE_SHOOTS_HE_SCORES               = 29438,
+    QUEST_ITS_HAMMER_TIME                   = 29463,
+    QUEST_TONK_COMMANDER                    = 29434,
+    QUEST_WELCOME_TO_THE_DARKMOON_RACES     = 37819,
+    QUEST_LETS_KEEP_RACING                  = 33756,
+    QUEST_THE_REAL_RACE                     = 37910,
+    QUEST_MORE_BIG_RACING                   = 37868,
+    QUEST_THE_REAL_BIG_RACE                 = 37911,
+};
+
+//ITEMS
+enum darkmoonIslandItems
+{
+    ITEM_DARKMOON_TOKEN                     = 71083
+};
+
+//ACHIEVEMENT
+enum darkmoonIslandAchievement
+{
+    // Firebirds Challenge achieve
+    ACHIEVEMENT_FLYING_HIGH                 = 9250,
+    ACHIEVEMENT_BLOOD_OF_ALYSRAZOR          = 9252,
+
+    // Dance Battle achieve
+    ACHIEVEMENT_FIRST_DANCE                 = 15212,
+    ACHIEVEMENT_YOU_GOT_THE_BEAT            = 15222,
+    ACHIEVEMENT_WHAT_A_FEELING              = 15214,
+    ACHIEVEMENT_MAKE_YOU_SWEAT              = 15216,
+    ACHIEVEMENT_DANCING_MACHINE             = 15221,
+};
+
+//SPELLS
+enum darkmoonIslandSpells
+{
+    SPELL_WHEE                              = 46668,
+    SPELL_FIRE_BREATHING_SPELL              = 102911,
+    SPELL_JUGGLE_TORCH_AURA                 = 46322, //  102905,
+
+    // Firebirds Challenge spell
+    SPELL_WINGS_OF_FLAME_START              = 170819,
+    SPELL_WINGS_OF_FLAME_AURA               = 170820,
+    SPELL_BLAZING_RING                      = 170823,
+    SPELL_SUMMON_RINGS_AT                   = 170815,
+    SPELL_SLOW_FALL                         = 130,
+
+    // Races
+    SPELL_WANDERLUSTER                      = 179256,
+    SPELL_POWERMONGER                       = 179251,
+    SPELL_ROCKETEER                         = 179252,
+    SPELL_RACINGSTRIDER                     = 179750,
+    SPELL_RACE_CANCELED                     = 149066,
+    SPELL_HAZARD_IMMUNITY                   = 148975,
+
+};
+
+enum darkmoonIslandGameObjects
+{
+    GOB_DARKMOON_CAROUSEL                   = 216666
+};
+
+enum darkmoonIslandRingTossSpells
+{
+    SPELL_RINGTOSS_ENABLE                   = 102058,
+    SPELL_RINGTOSS_TOSS                     = 101695,
+    SPELL_RINGTOSS_HIT                      = 101699,
+    SPELL_RINGTOSS_TURTLE_CIRCLE_1          = 101734,
+    SPELL_RINGTOSS_TURTLE_CIRCLE_2          = 101736,
+    SPELL_RINGTOSS_TURTLE_CIRCLE_3          = 101738,
+    SPELL_RINGTOSS_KILL_CREDIT              = 101807,
+};
+
+#endif
