@@ -222,7 +222,7 @@ void WorldSession::HandleClubFinderRequestMembershipToClub(WorldPackets::ClubFin
     sClubFinderMgr->AddApplicant(packet.PostingID, player->GetGUID(), packet.Comment);
 }
 
-void WorldSession::HandleClubFinderGetApplicantsList(WorldPackets::ClubFinder::GetApplicantsList& packet)
+void WorldSession::HandleClubFinderGetApplicantsList(WorldPackets::ClubFinder::GetApplicantsList&)
 {
     TC_LOG_DEBUG("clubfinder", "CMSG_CLUB_FINDER_GET_APPLICANTS_LIST [{}]", GetPlayerInfo());
 
